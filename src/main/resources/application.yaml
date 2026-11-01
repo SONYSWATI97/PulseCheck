@@ -1,0 +1,9 @@
+spring:
+  application:
+    name: pulsecheck
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: health,mappings
