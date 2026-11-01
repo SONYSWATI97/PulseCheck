@@ -7,3 +7,5 @@ management:
     web:
       exposure:
         include: health,mappings
+        server:
+  port: ${PORT:8080}
