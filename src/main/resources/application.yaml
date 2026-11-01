@@ -1,6 +1,8 @@
 spring:
   application:
     name: pulsecheck
+  main:
+    lazy-initialization: true
 
 management:
   endpoints:
